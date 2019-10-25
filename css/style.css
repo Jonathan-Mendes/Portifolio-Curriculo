@@ -1,4 +1,28 @@
 body{
-    background-color: #202020;
+    margin-top: 100px !important;
+    background-color: #202020 !important;
     color: #ffffff;
+}
+
+.border-left-photo{
+    border: 1px solid green;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+
+.border-right-photo{
+    border: 1px solid green;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.borderPhoto{
+    width: 200px !important;
+    height: 200px !important;
 }
