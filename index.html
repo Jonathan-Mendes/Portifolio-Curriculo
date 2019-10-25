@@ -13,11 +13,10 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Lib CSS -->
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
-
-    <!-- My SCSS -->
-    <link rel="stylesheet" type="text/scss" href="css/fontResponsive.scss">
 
     <!-- CSS Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -33,6 +32,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <!-- JS Lib -->
+
 </head>
 
 <body>
@@ -61,7 +63,7 @@
     <div class="container">
         <div class="row fontAudiowide text-center">
             <div class="col-12">
-                <div class="mx-auto bgMyYellow p-3" style="width:300px;height:300px;">
+                <div class="mx-auto myBorderYellow p-3" style="width:300px;height:300px;">
                     <img class="full img-fluid" src="img/foto-perfil.jpg" class="mx-auto" width="300px" height="300px">
                 </div>
             </div>
@@ -80,25 +82,191 @@
                 <div class="separator my-5 mx-auto"></div>
                 <h2 class="my-2">Sobre mim</h2>
                 <p class="text-white fontShareTechMono text-justify">
-                    But I must explain to you how all this mistaken idea of denouncing pleasure and 
-                    praising pain was born and I will give you a complete account of the system, and 
-                    expound the actual teachings of the great explorer of the truth, the master-builder 
-                    of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it 
-                    is pleasure, but because those who do not know how to pursue pleasure rationally encounter 
-                    consequences that are extremely painful. Nor again is there anyone who loves or pursues or 
-                    desires to obtain pain of itself, because it is pain, but because occasionally circumstances 
-                    occur in which toil and pain can procure him some great pleasure. To take a trivial example, 
-                    which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? 
-                    But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying 
+                    But I must explain to you how all this mistaken idea of denouncing pleasure and
+                    praising pain was born and I will give you a complete account of the system, and
+                    expound the actual teachings of the great explorer of the truth, the master-builder
+                    of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it
+                    is pleasure, but because those who do not know how to pursue pleasure rationally encounter
+                    consequences that are extremely painful. Nor again is there anyone who loves or pursues or
+                    desires to obtain pain of itself, because it is pain, but because occasionally circumstances
+                    occur in which toil and pain can procure him some great pleasure. To take a trivial example,
+                    which of us ever undertakes laborious physical exercise, except to obtain some advantage from it?
+                    But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying
                     consequences, or one who avoids a pain that produces no resultant pleasure?"
                 </p>
             </div>
         </div>
 
-
         <div class="row fontAudiowide">
             <div class="col-12">
-                <h2>Habilidades</h2>
+
+                <div class="separator my-5 mx-auto"></div>
+                <h2 class="mb-5 text-center">Habilidades</h2>
+
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                                    d-flex align-items-center justify-content-center">
+                            <div>
+                                <img src="img/icones/reactjs.png" alt="React JS" width="50px" height="50px">
+                                <h4 class="text-white">React JS</h4>
+                                <div class="progress myProgressBar">
+                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 70%"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                                            d-flex align-items-center justify-content-center">
+                            <div>
+                                <img src="img/icones/angular.png" alt="React JS" width="50px" height="50px">
+                                <h4 class="text-white">Angular</h4>
+                                <div class="progress myProgressBar">
+                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 70%"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                        <div class="col-md-3">
+                            <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                                                    d-flex align-items-center justify-content-center">
+                                <div>
+                                    <img src="img/icones/javaScript.png" alt="React JS" width="50px" height="50px">
+                                    <h4 class="text-white">JavaScript</h4>
+                                    <div class="progress myProgressBar">
+                                        <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 70%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                                                        d-flex align-items-center justify-content-center">
+                                <div>
+                                    <img src="img/icones/html5.png" alt="React JS" width="50px" height="50px">
+                                    <h4 class="text-white">HTML</h4>
+                                    <div class="progress myProgressBar">
+                                        <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 70%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <!-- <div class="col-3">
+                            <div class="blockHabilidades myBorderYellow p-3">
+                                <img src="img/icones/html5.png" alt="React JS" width="50px" height="50px">
+                                <h4 class="text-white">HTML</h4>
+                                <div class="progress myProgressBar">
+                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 70%"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <h4 class="text-white">Bootstrap</h4>
+                            <div class="progress myProgressBar">
+                                <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 70%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <h4 class="text-white">jQuery</h4>
+                            <div class="progress myProgressBar">
+                                <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 70%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <h4 class="text-white">PostgreeSQL</h4>
+                            <div class="progress myProgressBar">
+                                <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 70%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <h4 class="text-white">Firebase</h4>
+                            <div class="progress myProgressBar">
+                                <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 70%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <h4 class="text-white">Firebird</h4>
+                            <div class="progress myProgressBar">
+                                <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 70%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <h4 class="text-white">JavaScript</h4>
+                            <div class="progress myProgressBar">
+                                <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 70%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <h4 class="text-white">JavaScript</h4>
+                            <div class="progress myProgressBar">
+                                <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 70%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <h4 class="text-white">JavaScript</h4>
+                            <div class="progress myProgressBar">
+                                <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 70%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <h4 class="text-white">JavaScript</h4>
+                            <div class="progress myProgressBar">
+                                <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 70%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <h4 class="text-white">JavaScript</h4>
+                            <div class="progress myProgressBar">
+                                <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 70%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <h4 class="text-white">JavaScript</h4>
+                            <div class="progress myProgressBar">
+                                <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 70%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <h4 class="text-white">JavaScript</h4>
+                            <div class="progress myProgressBar">
+                                <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 70%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div> -->
+                    </div>
+                </div>
             </div>
         </div>
 
