@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="lib/font-awesome/css/font-awesome">
+    <link rel="stylesheet" href="lib/particles/particules.css">
 
     <!-- My CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -35,6 +36,15 @@
         crossorigin="anonymous"></script>
 
     <!-- JS Lib -->
+    <script src="lib/particles/particles.js"></script>
+    <script src="lib/particles/particles.min.js"></script>
+
+    <script src="lib/particles/demo/js/lib/stats.js"></script>
+    <script src="lib/particles/demo/js/app.js"></script>
+
+    <!-- stats.js -->
+    <script src="js/lib/stats.js"></script>
+
 
 </head>
 
@@ -50,21 +60,22 @@
                         </li>
                         <li class="nav-item mx-3">
                             <a class="nav-link" href="#about" id="about">
-                                    <i class="fa fa-question-circle mx-2 hide"></i>Sobre</a>
+                                <i class="fa fa-question-circle mx-2 hide"></i>Sobre</a>
                         </li>
                         <li class="nav-item mx-3">
                             <a class="nav-link" href="#sabilidades" id="habilidades">
-                                    <i class="fa fa-book mx-2 hide"></i>Habilidades</a>
+                                <i class="fa fa-book mx-2 hide"></i>Habilidades</a>
                         </li>
                         <li class="nav-item mx-3">
                             <a class="nav-link" href="contact" id="contact">
-                                    <i class="fa fa-phone mx-2 hide"></i>Contato</a>
+                                <i class="fa fa-phone mx-2 hide"></i>Contato</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </div>
+
     <div class="container">
         <div class="row fontAudiowide text-center">
             <div class="col-12">
@@ -100,11 +111,11 @@
                     consequences, or one who avoids a pain that produces no resultant pleasure?"
                 </p>
                 <div class="d-flex justify-content-center">
-                    <button type="button" 
-                    class="btn btn-outline-warning myBorderYellow myBtnColor mt-4">
-                        Currículo
-                        <i class="fa fa-chevron-down ml-2"></i>
-                    </button>
+                    <a href="./Jonathan_Mendes_Curriculo.pdf"><button type="button"
+                            class="btn btn-outline-warning myBorderYellow myBtnColor mt-4">
+                            Currículo
+                            <i class="fa fa-chevron-down ml-2"></i>
+                        </button></a>
                 </div>
             </div>
         </div>
@@ -140,7 +151,7 @@
                                 <img src="img/icones/angular.png" alt="React JS" width="50px" height="50px">
                                 <h4 class="text-white my-2">Angular</h4>
                                 <div class="progress myProgressBar">
-                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 70%"
+                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 30%"
                                         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
@@ -149,13 +160,13 @@
 
                     <div class="col-sm-12 col-md-3 col-lg-3">
                         <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
-                                        d-flex align-items-center justify-content-center
-                                        mx-auto my-4">
+                                                    d-flex align-items-center justify-content-center
+                                                    mx-auto my-4">
                             <div class="w-100">
-                                <img src="img/icones/javaScript.png" alt="React JS" width="50px" height="50px">
-                                <h4 class="text-white my-2">JavaScript</h4>
+                                <img src="img/icones/jquery.png" alt="React JS" width="50px" height="50px">
+                                <h4 class="text-white my-2">jQuery</h4>
                                 <div class="progress myProgressBar">
-                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 70%"
+                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 20%"
                                         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
@@ -163,6 +174,23 @@
                     </div>
 
                     <div class="col-sm-12 col-md-3 col-lg-3">
+                        <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                            d-flex align-items-center justify-content-center
+                            mx-auto my-4">
+                            <div class="w-100">
+                                <img src="img/icones/bootstrap.png" alt="React JS" width="50px" height="50px">
+                                <h4 class="text-white my-2">Bootstrap</h4>
+                                <div class="progress myProgressBar">
+                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 70%"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row text-center">
+                    <div class="col-sm-12 col-md-4 col-lg-4">
                         <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
                                         d-flex align-items-center justify-content-center
                                         mx-auto my-4">
@@ -170,7 +198,38 @@
                                 <img src="img/icones/html5.png" alt="React JS" width="50px" height="50px">
                                 <h4 class="text-white my-2">HTML</h4>
                                 <div class="progress myProgressBar">
+                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 90%"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-12 4 col-lg-4">
+                        <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                                        d-flex align-items-center justify-content-center
+                                        mx-auto my-4">
+                            <div class="w-100">
+                                <img src="img/icones/css3.png" alt="React JS" width="50px" height="50px">
+                                <h4 class="text-white my-2">CSS</h4>
+                                <div class="progress myProgressBar">
                                     <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 70%"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                                        d-flex align-items-center justify-content-center
+                                        mx-auto my-4">
+                            <div class="w-100">
+                                <img src="img/icones/javaScript.png" alt="React JS" width="50px" height="50px">
+                                <h4 class="text-white my-2">JavaScript</h4>
+                                <div class="progress myProgressBar">
+                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 80%"
                                         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
@@ -178,25 +237,119 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="separator my-5 mx-auto"></div>
 
-                </div>
-
-                <div class="row fontAudiowide">
-                    <div class="col-12">
-                        <h2>Formação</h2>
+                <h4 class="text-white text-center">Mobile</h4>
+                <div class="row text-center">
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                                    d-flex align-items-center justify-content-center
+                                    mx-auto my-4">
+                            <div class="w-100">
+                                <img src="img/icones/firebase.png" alt="React JS" width="50px" height="50px">
+                                <h4 class="text-white my-2">Firebase</h4>
+                                <div class="progress myProgressBar">
+                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 80%"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="row fontAudiowide">
-                    <div class="col-12">
-                        <h2>Contato</h2>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                                    d-flex align-items-center justify-content-center
+                                    mx-auto my-4">
+                            <div class="w-100">
+                                <img src="img/icones/postgree.png" alt="React JS" width="50px" height="50px">
+                                <h4 class="text-white my-2">PostgreeSQL</h4>
+                                <div class="progress myProgressBar">
+                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 60%"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-            </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                                        d-flex align-items-center justify-content-center
+                                        mx-auto my-4">
+                            <div class="w-100">
+                                <img src="img/icones/firebird.png" alt="React JS" width="50px" height="50px">
+                                <h4 class="text-white my-2">Firebird</h4>
+                                <div class="progress myProgressBar">
+                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 30%"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-            <script src="lib/mobile-nav/mobile-nav.js"></script>
+                    <div class="separator my-5 mx-auto"></div>
+
+                    <div class="row text-center">
+                            <h4 class="text-white text-center">Banco de Dados</h4>
+                            <div class="row text-center">
+                                <div class="col-sm-12 col-md-4 col-lg-4">
+                                    <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                                                d-flex align-items-center justify-content-center
+                                                mx-auto my-4">
+                                        <div class="w-100">
+                                            <img src="img/icones/firebase.png" alt="React JS" width="50px" height="50px">
+                                            <h4 class="text-white my-2">Firebase</h4>
+                                            <div class="progress myProgressBar">
+                                                <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 80%"
+                                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <div class="col-sm-12 col-md-4 col-lg-4">
+                                    <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                                                d-flex align-items-center justify-content-center
+                                                mx-auto my-4">
+                                        <div class="w-100">
+                                            <img src="img/icones/postgree.png" alt="React JS" width="50px" height="50px">
+                                            <h4 class="text-white my-2">PostgreeSQL</h4>
+                                            <div class="progress myProgressBar">
+                                                <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 60%"
+                                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <div class="col-sm-12 col-md-4 col-lg-4">
+                                    <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                                                    d-flex align-items-center justify-content-center
+                                                    mx-auto my-4">
+                                        <div class="w-100">
+                                            <img src="img/icones/firebird.png" alt="React JS" width="50px" height="50px">
+                                            <h4 class="text-white my-2">Firebird</h4>
+                                            <div class="progress myProgressBar">
+                                                <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 30%"
+                                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="row fontAudiowide">
+                                <div class="col-12">
+                                    <h2>Formação</h2>
+                                </div>
+                            </div>
+
+                            <div class="row fontAudiowide">
+                                <div class="col-12">
+                                    <h2>Contato</h2>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <script src="lib/mobile-nav/mobile-nav.js"></script>
 </body>
 
 </html>
