@@ -15,7 +15,7 @@ body{
 }
 
 .myBorderYellow{
-    border: 1px solid#F2E205;
+    border: 1px solid#F2E205 !important;
 }
 
 
@@ -64,7 +64,14 @@ body{
     width: 200px;
 }
 
+.myBtnColor{
+    color: #F2E205 !important;
+}
 
+.myBtnColor:hover{
+    color: #0D0D0D !important;
+    background-color: #F2E205 !important;
+}
 
 /* Color Theme Swatches in Hex */
 .germany,hambourg,port-on-elbe-:-port-crane-1-hex { color: #EAF205; }
