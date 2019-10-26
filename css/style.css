@@ -18,6 +18,9 @@ body{
     border: 1px solid#F2E205 !important;
 }
 
+.myBorderBlack{
+    border: 1px solid#0D0D0D !important;
+}
 
 /* Colors */
 .bgMyBlack {
@@ -73,23 +76,12 @@ body{
     background-color: #F2E205 !important;
 }
 
-/* Color Theme Swatches in Hex */
-.germany,hambourg,port-on-elbe-:-port-crane-1-hex { color: #EAF205; }
-.germany,hambourg,port-on-elbe-:-port-crane-2-hex { color: #F2E205; }
-.germany,hambourg,port-on-elbe-:-port-crane-3-hex { color: #BFB304; }
-.germany,hambourg,port-on-elbe-:-port-crane-4-hex { color: #736B02; }
-.germany,hambourg,port-on-elbe-:-port-crane-5-hex { color: #0D0D0D; }
+.hide{
+    display: none;
+}
 
-/* Color Theme Swatches in RGBA */
-.germany,hambourg,port-on-elbe-:-port-crane-1-rgba { color: rgba(234, 242, 4, 1); }
-.germany,hambourg,port-on-elbe-:-port-crane-2-rgba { color: rgba(242, 226, 4, 1); }
-.germany,hambourg,port-on-elbe-:-port-crane-3-rgba { color: rgba(191, 178, 3, 1); }
-.germany,hambourg,port-on-elbe-:-port-crane-4-rgba { color: rgba(114, 107, 2, 1); }
-.germany,hambourg,port-on-elbe-:-port-crane-5-rgba { color: rgba(12, 12, 12, 1); }
-
-/* Color Theme Swatches in HSLA */
-.germany,hambourg,port-on-elbe-:-port-crane-1-hsla { color: hsla(61, 96, 48, 1); }
-.germany,hambourg,port-on-elbe-:-port-crane-2-hsla { color: hsla(56, 96, 48, 1); }
-.germany,hambourg,port-on-elbe-:-port-crane-3-hsla { color: hsla(56, 96, 38, 1); }
-.germany,hambourg,port-on-elbe-:-port-crane-4-hsla { color: hsla(56, 96, 22, 1); }
-.germany,hambourg,port-on-elbe-:-port-crane-5-hsla { color: hsla(0, 0, 5, 1); }
+@media screen and (max-width: 990px) {
+    .hide {
+      display: inline;
+    }
+  }

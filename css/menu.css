@@ -4,6 +4,7 @@
   font-family: 'Share Tech Mono', monospace !important;
 }
 a {
+  font-size: 20px;
   color: #F2E205;
   font-family: 'Share Tech Mono', monospace !important;
 }
@@ -12,7 +13,7 @@ a:link {
 } 
 a:hover { 
   text-decoration: none; 
-  color: #736B02;
+  color: white;
 }
 .main-nav,
 .main-nav * {
@@ -123,8 +124,7 @@ a:hover {
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  /* background: rgb(26, 134, 22); */
-  background: #736B02;
+  background: #F4B904;
   transition: 0.4s;
 }
 
@@ -137,7 +137,7 @@ a:hover {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #fff;
+  color: #0D0D0D;
   padding: 10px 20px;
   font-weight: 500;
   text-transform: uppercase;
@@ -194,8 +194,8 @@ a:hover {
 }
 
 .mobile-nav-toggle i {
-  margin: 18px 18px 0 0;
-  /* color: #736B02;; */
+  /* margin: 18px 18px 0 0; */
+  margin-left: 10px;
   color: #F2E205;
 }
 
