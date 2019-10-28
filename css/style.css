@@ -116,3 +116,13 @@ body{
         top: 500px;
     }
 }
+
+@media screen and (max-width: 430px) {
+    .title{
+        Font-size: 32px;
+    }
+
+    .subtitle{
+        font-size: 26px;
+    }
+}
