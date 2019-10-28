@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="lib/font-awesome/css/font-awesome">
+    <link rel="stylesheet" href="lib/particle/stats.css">
 
     <!-- My CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -41,256 +42,271 @@
 </head>
 
 <body>
-    <div id='menu'>
-        <nav class="navbar navbar-expand-lg main-nav d-none d-lg-block fixed-top bgMyBlack" id="header">
-            <div class="container justify-content-flex-end">
-                <div>
-                    <ul id="lista" class="navbar-nav ml-auto">
-                        <li class="nav-item mx-3">
-                            <a class="nav-link" href="#home" id="home">
-                                <i class="fa fa-home mx-3 hide"></i>Inicio</a>
-                        </li>
-                        <li class="nav-item mx-3">
-                            <a class="nav-link" href="#about" id="about">
-                                <i class="fa fa-question-circle mx-3 hide"></i>Sobre</a>
-                        </li>
-                        <li class="nav-item mx-3">
-                            <a class="nav-link" href="#sabilidades" id="habilidades">
-                                <i class="fa fa-book mx-3 hide"></i>Habilidades</a>
-                        </li>
-                        <li class="nav-item mx-3">
-                            <a class="nav-link" href="#contact" id="contact">
-                                <i class="fa fa-phone mx-3 hide"></i>Contato</a>
-                        </li>
-                    </ul>
-                    <img id="imgLogo" src="img/logoJGM.png" class="hide" alt="Logo" width="250px" height="250px">
-                    <h4 id="subtitleLogo" class="hide w-100">Jonathan Mendes</h4>
+    <!-- =================== Menu =================== -->
+
+    <header>
+        <div id='menu'>
+            <nav class="navbar navbar-expand-lg main-nav d-none d-lg-block fixed-top bgMyBlack" id="header">
+                <div class="container justify-content-flex-end">
+                    <div>
+                        <ul id="lista" class="navbar-nav ml-auto">
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#home" id="home">
+                                    <i class="fa fa-home mx-3 hide"></i>Inicio</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#about" id="about">
+                                    <i class="fa fa-question-circle mx-3 hide"></i>Sobre</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#skils" id="habilidades">
+                                    <i class="fa fa-book mx-3 hide"></i>Habilidades</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#contact" id="contact">
+                                    <i class="fa fa-phone mx-3 hide"></i>Contato</a>
+                            </li>
+                        </ul>
+                        <img id="imgLogo" src="img/logoJGM.png" class="hide" alt="Logo" width="250px" height="250px">
+                        <h4 id="subtitleLogo" class="hide w-100">Jonathan Mendes</h4>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- style="box-shadow: 0px 8px 16px rgba(0, 128, 0, 0.863) -->
 
     <div class="container">
-        <div id="home" class="row fontAudiowide text-center">
-            <div class="col-12">
-                <div class="mx-auto myBorderYellow p-3" style="width:300px;height:300px;">
-                    <img class="full img-fluid" src="img/foto-perfil.jpg" class="mx-auto" width="300px" height="300px">
+        <section id="home">
+            <div class="row fontAudiowide text-center">
+                <div class="col-12">
+                    <div class="mx-auto myBorderYellow p-3" style="width:300px;height:300px;">
+                        <img class="full img-fluid" src="img/foto-perfil.jpg" class="mx-auto" width="300px"
+                            height="300px">
+                    </div>
+                </div>
+
+                <div class="col-12 text-center mt-4">
+                    <h1 class="text-white title">Jonathan Mendes</h1>
+                </div>
+
+                <div class="col-12">
+                    <h2 class="subtitle">Desenvolvedor Web</h2>
                 </div>
             </div>
+        </section>
 
-            <div class="col-12 text-center mt-4">
-                <h1 class="text-white title">Jonathan Mendes</h1>
-            </div>
-
-            <div class="col-12">
-                <h2 class="subtitle">Desenvolvedor Web</h2>
-            </div>
-        </div>
-
-        <div id="about" class="row fontAudiowide mt-3">
-            <div class="col-12">
-                <div class="separator my-5 mx-auto"></div>
-                <h2 class="my-2">Sobre mim</h2>
-                <p class="text-white fontShareTechMono text-justify">
-                    But I must explain to you how all this mistaken idea of denouncing pleasure and
-                    praising pain was born and I will give you a complete account of the system, and
-                    expound the actual teachings of the great explorer of the truth, the master-builder
-                    of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it
-                    is pleasure, but because those who do not know how to pursue pleasure rationally encounter
-                    consequences that are extremely painful. Nor again is there anyone who loves or pursues or
-                    desires to obtain pain of itself, because it is pain, but because occasionally circumstances
-                    occur in which toil and pain can procure him some great pleasure. To take a trivial example,
-                    which of us ever undertakes laborious physical exercise, except to obtain some advantage from it?
-                    But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying
-                    consequences, or one who avoids a pain that produces no resultant pleasure?"
-                </p>
-                <div class="d-flex justify-content-center">
-                    <a href="./Jonathan_Mendes_Curriculo.pdf"><button type="button"
-                            class="btn btn-outline-warning myBorderYellow myBtnColor mt-4">
-                            Currículo
-                            <i class="fa fa-chevron-down ml-2"></i>
-                        </button></a>
+        <section id="about">
+            <div class="row fontAudiowide mt-3">
+                <div class="col-12">
+                    <div class="separator my-5 mx-auto"></div>
+                    <h2 class="my-2">Sobre mim</h2>
+                    <p class="text-white fontShareTechMono text-justify">
+                        But I must explain to you how all this mistaken idea of denouncing pleasure and
+                        praising pain was born and I will give you a complete account of the system, and
+                        expound the actual teachings of the great explorer of the truth, the master-builder
+                        of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it
+                        is pleasure, but because those who do not know how to pursue pleasure rationally encounter
+                        consequences that are extremely painful. Nor again is there anyone who loves or pursues or
+                        desires to obtain pain of itself, because it is pain, but because occasionally circumstances
+                        occur in which toil and pain can procure him some great pleasure. To take a trivial example,
+                        which of us ever undertakes laborious physical exercise, except to obtain some advantage from
+                        it?
+                        But who has any right to find fault with a man who chooses to enjoy a pleasure that has no
+                        annoying
+                        consequences, or one who avoids a pain that produces no resultant pleasure?"
+                    </p>
+                    <div class="d-flex justify-content-center">
+                        <a href="./Jonathan_Mendes_Curriculo.pdf"><button type="button"
+                                class="btn btn-outline-warning myBorderYellow myBtnColor mt-4">
+                                Currículo
+                                <i class="fa fa-chevron-down ml-2"></i>
+                            </button></a>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="row fontAudiowide">
-            <div class="col-12">
+        <section id="skils">
+            <div class="row fontAudiowide">
+                <div class="col-12">
 
-                <div class="separator my-5 mx-auto"></div>
-                <h2 class="mb-5 text-center">Habilidades</h2>
+                    <div class="separator my-5 mx-auto"></div>
+                    <h2 class="mb-5 text-center">Habilidades</h2>
 
-                <h4 class="text-white text-center">Web</h4>
-                <div class="row text-center">
-                    <div class="col-sm-12 col-md-3 col-lg-3">
-                        <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                    <h4 class="text-white text-center">Web</h4>
+                    <div class="row text-center">
+                        <div class="col-sm-12 col-md-3 col-lg-3">
+                            <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
                                     d-flex align-items-center justify-content-center
                                     mx-auto my-4">
-                            <div class="w-100">
-                                <img src="img/icones/reactjs.png" alt="React JS" width="50px" height="50px">
-                                <h4 class="text-white my-2">React JS</h4>
-                                <div class="progress myProgressBar">
-                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 70%"
-                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="w-100">
+                                    <img src="img/icones/reactjs.png" alt="React JS" width="50px" height="50px">
+                                    <h4 class="text-white my-2">React JS</h4>
+                                    <div class="progress myProgressBar">
+                                        <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 70%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-sm-12 col-md-3 col-lg-3">
-                        <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                        <div class="col-sm-12 col-md-3 col-lg-3">
+                            <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
                                     d-flex align-items-center justify-content-center
                                     mx-auto my-4">
-                            <div class="w-100">
-                                <img src="img/icones/angular.png" alt="React JS" width="50px" height="50px">
-                                <h4 class="text-white my-2">Angular</h4>
-                                <div class="progress myProgressBar">
-                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 40%"
-                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="w-100">
+                                    <img src="img/icones/angular.png" alt="React JS" width="50px" height="50px">
+                                    <h4 class="text-white my-2">Angular</h4>
+                                    <div class="progress myProgressBar">
+                                        <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 40%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-sm-12 col-md-3 col-lg-3">
-                        <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                        <div class="col-sm-12 col-md-3 col-lg-3">
+                            <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
                                                     d-flex align-items-center justify-content-center
                                                     mx-auto my-4">
-                            <div class="w-100">
-                                <img src="img/icones/jquery.png" alt="React JS" width="50px" height="50px">
-                                <h4 class="text-white my-2">jQuery</h4>
-                                <div class="progress myProgressBar">
-                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 20%"
-                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="w-100">
+                                    <img src="img/icones/jquery.png" alt="React JS" width="50px" height="50px">
+                                    <h4 class="text-white my-2">jQuery</h4>
+                                    <div class="progress myProgressBar">
+                                        <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 20%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-sm-12 col-md-3 col-lg-3">
-                        <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                        <div class="col-sm-12 col-md-3 col-lg-3">
+                            <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
                             d-flex align-items-center justify-content-center
                             mx-auto my-4">
-                            <div class="w-100">
-                                <img src="img/icones/bootstrap.png" alt="React JS" width="50px" height="50px">
-                                <h4 class="text-white my-2">Bootstrap</h4>
-                                <div class="progress myProgressBar">
-                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 70%"
-                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="w-100">
+                                    <img src="img/icones/bootstrap.png" alt="React JS" width="50px" height="50px">
+                                    <h4 class="text-white my-2">Bootstrap</h4>
+                                    <div class="progress myProgressBar">
+                                        <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 70%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="row text-center">
-                    <div class="col-sm-12 col-md-3 col-lg-3">
-                        <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                    <div class="row text-center">
+                        <div class="col-sm-12 col-md-3 col-lg-3">
+                            <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
                                         d-flex align-items-center justify-content-center
                                         mx-auto my-4">
-                            <div class="w-100">
-                                <img src="img/icones/html5.png" alt="React JS" width="50px" height="50px">
-                                <h4 class="text-white my-2">HTML</h4>
-                                <div class="progress myProgressBar">
-                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 90%"
-                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="w-100">
+                                    <img src="img/icones/html5.png" alt="React JS" width="50px" height="50px">
+                                    <h4 class="text-white my-2">HTML</h4>
+                                    <div class="progress myProgressBar">
+                                        <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 90%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
 
-                    <div class="col-sm-12 col-md-3 col-lg-3">
-                        <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                        <div class="col-sm-12 col-md-3 col-lg-3">
+                            <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
                                         d-flex align-items-center justify-content-center
                                         mx-auto my-4">
-                            <div class="w-100">
-                                <img src="img/icones/css3.png" alt="React JS" width="50px" height="50px">
-                                <h4 class="text-white my-2">CSS</h4>
-                                <div class="progress myProgressBar">
-                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 70%"
-                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="w-100">
+                                    <img src="img/icones/css3.png" alt="React JS" width="50px" height="50px">
+                                    <h4 class="text-white my-2">CSS</h4>
+                                    <div class="progress myProgressBar">
+                                        <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 70%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-sm-12 col-md-3 col-lg-3">
-                        <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                        <div class="col-sm-12 col-md-3 col-lg-3">
+                            <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
                                         d-flex align-items-center justify-content-center
                                         mx-auto my-4">
-                            <div class="w-100">
-                                <img src="img/icones/javaScript.png" alt="React JS" width="50px" height="50px">
-                                <h4 class="text-white my-2">JavaScript</h4>
-                                <div class="progress myProgressBar">
-                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 80%"
-                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="w-100">
+                                    <img src="img/icones/javaScript.png" alt="React JS" width="50px" height="50px">
+                                    <h4 class="text-white my-2">JavaScript</h4>
+                                    <div class="progress myProgressBar">
+                                        <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 80%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
 
-                    <div class="col-sm-12 col-md-3 col-lg-3">
-                        <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                        <div class="col-sm-12 col-md-3 col-lg-3">
+                            <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
                                     d-flex align-items-center justify-content-center
                                     mx-auto my-4">
-                            <div class="w-100">
-                                <img src="img/icones/redux.png" alt="React JS" width="50px" height="50px">
-                                <h4 class="text-white my-2">Redux</h4>
-                                <div class="progress myProgressBar">
-                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 20%"
-                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="w-100">
+                                    <img src="img/icones/redux.png" alt="React JS" width="50px" height="50px">
+                                    <h4 class="text-white my-2">Redux</h4>
+                                    <div class="progress myProgressBar">
+                                        <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 20%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="separator my-5 mx-auto"></div>
+                    <div class="separator my-5 mx-auto"></div>
 
-                <h4 class="text-white text-center">Banco de Dados</h4>
-                <div class="row text-center">
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                    <h4 class="text-white text-center">Banco de Dados</h4>
+                    <div class="row text-center">
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
                                     d-flex align-items-center justify-content-center
                                     mx-auto my-4">
-                            <div class="w-100">
-                                <img src="img/icones/firebase.png" alt="React JS" width="50px" height="50px">
-                                <h4 class="text-white my-2">Firebase</h4>
-                                <div class="progress myProgressBar">
-                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 80%"
-                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="w-100">
+                                    <img src="img/icones/firebase.png" alt="React JS" width="50px" height="50px">
+                                    <h4 class="text-white my-2">Firebase</h4>
+                                    <div class="progress myProgressBar">
+                                        <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 80%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
                                     d-flex align-items-center justify-content-center
                                     mx-auto my-4">
-                            <div class="w-100">
-                                <img src="img/icones/postgree.png" alt="React JS" width="50px" height="50px">
-                                <h4 class="text-white my-2" style="font-size: 23px;">PostgreeSQL</h4>
-                                <div class="progress myProgressBar">
-                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 60%"
-                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="w-100">
+                                    <img src="img/icones/postgree.png" alt="React JS" width="50px" height="50px">
+                                    <h4 class="text-white my-2" style="font-size: 23px;">PostgreeSQL</h4>
+                                    <div class="progress myProgressBar">
+                                        <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 60%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
                                         d-flex align-items-center justify-content-center
                                         mx-auto my-4">
-                            <div class="w-100">
-                                <img src="img/icones/firebird.png" alt="React JS" width="50px" height="50px">
-                                <h4 class="text-white my-2">Firebird</h4>
-                                <div class="progress myProgressBar">
-                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 30%"
-                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="w-100">
+                                    <img src="img/icones/firebird.png" alt="React JS" width="50px" height="50px">
+                                    <h4 class="text-white my-2">Firebird</h4>
+                                    <div class="progress myProgressBar">
+                                        <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 30%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -299,115 +315,131 @@
                     <div class="separator my-5 mx-auto"></div>
 
                     <h4 class="text-white text-center w-100">Mobile</h4>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                    <div class="row text-center">
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
                                         d-flex align-items-center justify-content-center
                                         mx-auto my-4">
-                            <div class="w-100">
-                                <img src="img/icones/reactjs.png" alt="React JS" width="70px" height="70px">
-                                <h4 class="text-white my-2 smFont">React Native</h4>
-                                <div class="progress myProgressBar">
-                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 40%"
-                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="w-100">
+                                    <img src="img/icones/reactjs.png" alt="React JS" width="70px" height="70px">
+                                    <h4 class="text-white my-2 smFont">React Native</h4>
+                                    <div class="progress myProgressBar">
+                                        <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 40%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                                        d-flex align-items-center justify-content-center
+                                        mx-auto my-4">
+                                <div class="w-100">
+                                    <img src="img/icones/ionic.png" alt="React JS" width="50px" height="50px">
+                                    <h4 class="text-white my-2">Ionic</h4>
+                                    <div class="progress myProgressBar">
+                                        <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 30%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                                        d-flex align-items-center justify-content-center
+                                        mx-auto my-4">
+                                <div class="w-100">
+                                    <img src="img/icones/androidstudio.png" alt="React JS" width="50px" height="50px">
+                                    <h4 class="text-white my-2 smFont">Android Studio</h4>
+                                    <div class="progress myProgressBar">
+                                        <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 40%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
-                                        d-flex align-items-center justify-content-center
-                                        mx-auto my-4">
-                            <div class="w-100">
-                                <img src="img/icones/ionic.png" alt="React JS" width="50px" height="50px">
-                                <h4 class="text-white my-2">Ionic</h4>
-                                <div class="progress myProgressBar">
-                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 30%"
-                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
-                                        d-flex align-items-center justify-content-center
-                                        mx-auto my-4">
-                            <div class="w-100">
-                                <img src="img/icones/androidstudio.png" alt="React JS" width="50px" height="50px">
-                                <h4 class="text-white my-2 smFont">Android Studio</h4>
-                                <div class="progress myProgressBar">
-                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 40%"
-                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                     <div class="separator my-5 mx-auto"></div>
-
-                    <h4 class="text-white text-center w-100">Outros</h4>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                    <div class="row text-center">
+                        <h4 class="text-white text-center w-100">Outros</h4>
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
                                         d-flex align-items-center justify-content-center
                                         mx-auto my-4">
-                            <div class="w-100">
-                                <img src="img/icones/java.png" alt="React JS" width="70px" height="70px">
-                                <h4 class="text-white my-2">Java</h4>
-                                <div class="progress myProgressBar">
-                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 75%"
-                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="w-100">
+                                    <img src="img/icones/java.png" alt="React JS" width="70px" height="70px">
+                                    <h4 class="text-white my-2">Java</h4>
+                                    <div class="progress myProgressBar">
+                                        <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 75%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                                        d-flex align-items-center justify-content-center
+                                        mx-auto my-4">
+                                <div class="w-100">
+                                    <img src="img/icones/c.png" alt="React JS" width="50px" height="50px">
+                                    <h4 class="text-white my-2">C</h4>
+                                    <div class="progress myProgressBar">
+                                        <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 85%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
+                                        d-flex align-items-center justify-content-center
+                                        mx-auto my-4">
+                                <div class="w-100">
+                                    <img src="img/icones/python.png" alt="React JS" width="50px" height="50px">
+                                    <h4 class="text-white my-2">Python</h4>
+                                    <div class="progress myProgressBar">
+                                        <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 20%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+        </section>
 
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
-                                        d-flex align-items-center justify-content-center
-                                        mx-auto my-4">
-                            <div class="w-100">
-                                <img src="img/icones/c.png" alt="React JS" width="50px" height="50px">
-                                <h4 class="text-white my-2">C</h4>
-                                <div class="progress myProgressBar">
-                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 85%"
-                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
+        <div class="separator my-5 mx-auto"></div>
+
+        <section class="formation">
+            <div class="row fontAudiowide">
+                <div class="col-12 text-center">
+                    <h2>Formação</h2>
+                </div>
+
+                <div class="col-md-12 d-flex justify-content-center mt-5">
+                    <div id="formacao" class="myBorderYellow p-2">
+                        <div class="bgMyBlack2 p-3 text-white fontShareTechMono">
+                            <span class="mySpanColor">UNIVÁS</span> - Universidade do Vale do Sapucaí <br>
+                            Bacharelado em Sistemas de Informação <br><br>
+                            <span class="mySpanColor">2017</span> - <span class="mySpanColor">2020</span>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
 
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="blockHabilidades myBorderYellow bgMyBlack2 p-3
-                                        d-flex align-items-center justify-content-center
-                                        mx-auto my-4">
-                            <div class="w-100">
-                                <img src="img/icones/python.png" alt="React JS" width="50px" height="50px">
-                                <h4 class="text-white my-2">Python</h4>
-                                <div class="progress myProgressBar">
-                                    <div class="progress-bar bgMyYellow3" role="progressbar" style="width: 20%"
-                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <div class="separator my-5 mx-auto"></div <div class="row fontAudiowide">
+            
+        <div class="col-12">
+            <h2>Contato</h2>
+        </div>
+    </div>
 
+    <script src="lib/mobile-nav/mobile-nav.js"></script>
 
-
-
-                    <div class="row fontAudiowide">
-                        <div class="col-12">
-                            <h2>Formação</h2>
-                        </div>
-                    </div>
-
-                    <div class="row fontAudiowide">
-                        <div class="col-12">
-                            <h2>Contato</h2>
-                        </div>
-                    </div>
-
-                    <script src="lib/mobile-nav/mobile-nav.js"></script>
 </body>
 
 </html>

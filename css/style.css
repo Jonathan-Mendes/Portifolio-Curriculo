@@ -49,9 +49,18 @@ body{
 }
 
 
-/* Classes */
+/* Fontes */
 .fontAudiowide{
     font-family: 'Audiowide', cursive;
+}
+
+.fontOrbitron{
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+.mySpanColor{
+    color: #F2E205 !important;
 }
 
 .separator{
@@ -85,8 +94,17 @@ body{
     font-size: 19px;
 }
 
+#formacao{
+    width: 40%;
+}
+
 /* Media */
 @media screen and (max-width: 990px) {
+
+    #formacao{
+        width: 100%;
+    }
+
     .hide {
       display: inline;
     }
@@ -124,5 +142,9 @@ body{
 
     .subtitle{
         font-size: 26px;
+    }
+
+    #formacao{
+        font-size: 12px;
     }
 }
