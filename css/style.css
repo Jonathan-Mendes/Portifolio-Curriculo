@@ -1,5 +1,5 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Orbitron|family=Audiowide&display=swap');
 
 body{
     margin-top: 100px !important;
@@ -80,8 +80,38 @@ body{
     display: none;
 }
 
+.smFont{
+    font-size: 19px;
+}
+
+/* Media */
 @media screen and (max-width: 990px) {
     .hide {
       display: inline;
     }
-  }
+
+    a{
+        font-size: 24px;
+        margin-top: 50px;
+    }
+    
+    #lista{
+        margin-top: 10px;
+    }
+
+    #imgLogo{
+        position: absolute;
+        top: 300px;
+        left: 10px;
+        opacity: 0.7;
+    }
+
+    #subtitleLogo{
+        font-family: 'Orbitron', sans-serif;
+        color: black;
+        opacity: 0.7;
+        font-size: 23px;
+        position: absolute;
+        top: 550px;
+    }
+}
