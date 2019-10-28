@@ -1,5 +1,6 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Orbitron|family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
 
 body{
     margin-top: 100px !important;
@@ -101,7 +102,7 @@ body{
 
     #imgLogo{
         position: absolute;
-        top: 300px;
+        top: 250px;
         left: 10px;
         opacity: 0.7;
     }
@@ -112,6 +113,6 @@ body{
         opacity: 0.7;
         font-size: 23px;
         position: absolute;
-        top: 550px;
+        top: 500px;
     }
 }
