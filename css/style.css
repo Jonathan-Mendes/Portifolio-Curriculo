@@ -98,6 +98,14 @@ body{
     width: 40%;
 }
 
+.imgCard{
+    opacity: 0.5;
+}
+
+.cardImgSize{
+    max-height: 173px;
+}
+
 /* Media */
 @media screen and (max-width: 990px) {
 
