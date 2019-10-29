@@ -20,8 +20,9 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" 
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
+    <!-- CSS Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     <!-- CSS Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -54,19 +55,19 @@
                     <div>
                         <ul id="lista" class="navbar-nav ml-auto">
                             <li class="nav-item mx-3">
-                                <a class="nav-link" href="#home" id="home">
+                                <a class="nav-link" href="#home">
                                     <i class="fa fa-home mx-3 hide"></i>Inicio</a>
                             </li>
                             <li class="nav-item mx-3">
-                                <a class="nav-link" href="#about" id="about">
+                                <a class="nav-link" href="#about">
                                     <i class="fa fa-question-circle mx-3 hide"></i>Sobre</a>
                             </li>
                             <li class="nav-item mx-3">
-                                <a class="nav-link" href="#skils" id="habilidades">
+                                <a class="nav-link" href="#skils">
                                     <i class="fa fa-book mx-3 hide"></i>Habilidades</a>
                             </li>
                             <li class="nav-item mx-3">
-                                <a class="nav-link" href="#contact" id="contact">
+                                <a class="nav-link" href="#contact">
                                     <i class="fa fa-phone mx-3 hide"></i>Contato</a>
                             </li>
                         </ul>
@@ -99,7 +100,7 @@
         </section>
 
         <button class="rounded-circle" onclick="topFunction()" id="myBtn" title="Go to top">
-            <i class="fa fa-arrow-alt-circle-up"></i>
+            <i class="fas fa-arrow-alt-circle-up"></i>
         </button>
 
         <section id="about">
@@ -483,33 +484,55 @@
         </div>
 
         <div class="separator my-5 mx-auto"></div>
+        <section id="contact">
+            <div class="row fontShareTechMono">
+                <div class="col-12 text-center mb-5">
+                    <h2>Contato</h2>
+                </div>
 
-        <div class="row fontAudiowide">
-            <div class="col-12 text-center mb-5">
-                <h2>Contato</h2>
-            </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 my-4">
+                    <div class="myBorderYellow text-center">
+                        <div class="contact text-white">
+                            <div>
+                                <i class="fas fa-map-marked-alt iconContact"></i>
+                            </div>
+                            <div>
+                                <span>
+                                    Rua Argemiro Tesch Furtado - Jardim California <br>
+                                    Pouso Alegre - MG 37550-000
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <div class="myBorderYellow">
-                    <div class="contact text-white">
+                <div class="col-sm-12 col-md-4 col-lg-4 my-4">
+                    <div class="myBorderYellow">
+                        <div class="contact text-white text-center">
+                            <div>
+                                <i class="fas fa-phone iconContact"></i>
+                            </div>
+                            <div>
+                                <span>(35) 9 9971-3516</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4 col-lg-4 my-4">
+                    <div class="myBorderYellow">
+                        <div class="contact text-white text-center">
+                            <div>
+                                <i class="fas fa-at iconContact"></i>
+                            </div>
+                            <div>
+                                <span>jonathan_mendes96@outlook.com</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <div class="myBorderYellow">
-                    <div class="contact text-white">
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <div class="myBorderYellow">
-                    <div class="contact text-white">
-                    </div>
-                </div>
-            </div>
-        </div>
+        </section>
 
         <script src="lib/mobile-nav/mobile-nav.js"></script>
         <script src="js/index.js"></script>
