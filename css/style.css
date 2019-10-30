@@ -130,6 +130,29 @@ html {
     font-size: 100px;
 }
 
+.whatsApp{
+    position: absolute;
+    left: 40%;
+    top: 38%;
+    visibility: hidden;
+}
+
+#blockWhatsApp:hover .whatsApp{
+    visibility: visible;
+    color: white !important;
+    opacity: 1 !important;
+}
+
+#blockWhatsApp:hover .blockPhone{
+    visibility: hidden;
+}
+
+#blockWhatsApp:hover{
+    background-color: #5cb85c;
+    border-color: white !important;
+    opacity: 0.6;
+}
+
 #myBtn {
     display: none;
     position: fixed;
