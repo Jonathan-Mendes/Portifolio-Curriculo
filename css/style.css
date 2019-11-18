@@ -153,6 +153,10 @@ footer{
     font-size: 25px !important;
 }
 
+.aboutMe{
+    font-size: 19px;
+}
+
 #blockWhatsApp:hover .whatsApp{
     visibility: visible;
     color: white !important;
