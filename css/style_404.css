@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+
+.fontAudiowide{
+    font-family: 'Audiowide', cursive;
+}
+
+.fontOrbitron{
+    font-family: 'Orbitron', sans-serif;
+}   
+
+.title{
+    color: #F2E205 ;
+}
+
+.btn-outline-warning:hover{
+    background-color: #F2E205 !important;
+    border-color: #F2E205 !important;
+    color: #0d0d0d !important;
+}
+
+.btn-outline-warning{
+    color: #F2E205 !important;
+    border-color: #F2E205 !important;
+}
+
+img{
+    border: 3px solid #F2E205 !important;
+    padding: 30px !important;
+    background-color: white;
+}
+
+body{
+    background-color: #0d0d0d !important;
+}

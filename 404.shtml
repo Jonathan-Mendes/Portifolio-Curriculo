@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jonathan Mendes</title>
+
+    <meta charset='utf-8' />
+    <meta name="author" content="Jonathan Mendes" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style_404.css">
+
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Lib -->
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- CSS Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- JS Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="/img/logoJGM.png" />
+</head>
+
+<body class="my-4">
+
+    <h1 class="title fontAudiowide text-center">
+        <i class="far fa-frown mr-2"></i>
+        Sorry, Page not found
+        <i class="far fa-frown ml-2"></i>
+    </h1>
+    <div class="d-flex justify-content-center align-center-items-center h-100 w-100 mt-5 mb-3">
+        <img src="img/page_not_found.svg" alt="page not found" width="60%" height="60%">
+    </div>
+    <!-- <h1 class="title fontAudiowide text-center"></h1> -->
+    <div class="d-flex justify-content-center">
+        <a href="http://www.jonathanmendes.com.br">
+            <Button class="btn btn-outline-warning">Back home page</Button>
+        </a>
+    </div>
+</body>
+
+</html>

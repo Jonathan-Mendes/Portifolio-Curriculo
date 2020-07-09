@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap');
+
+.font {
+    font-family: 'Pacifico', cursive;
+}
+
+#confirmar {
+    font-size: 35px;
+}
+
+#confirmado {
+    font-size: 25px;
+}
+
+.gradient {
+    color: rgb(253,41,123);
+    color: linear-gradient(90deg, rgba(253,41,123,1) 0%, rgba(255,88,100,1) 15%, rgba(255,101,91,1) 85%);
+}
+
+.p-confirmado {
+    font-size: 18px;
+}
+
+.font2{
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+}
+
+.border-none {
+    border: none;
+}
+
+#section_2 {
+    opacity: 0;
+}
+
+.left {
+    color: rgb(253,41,123);
+    color: linear-gradient(90deg, rgba(253,41,123,1) 0%, rgba(255,88,100,1) 15%, rgba(255,101,91,1) 85%);
+}
+
+.right {
+    color: #eeecec;
+    text-align: right;
+}
+
+.local {
+    width: 250px;
+    text-align: center;
+}
+
+.nomes {
+    font-family: 'Pacifico', cursive;
+    color: #eeecec;
+    font-size: 20px;
+}
+
+body {
+    background-color: #141414;
+}
+
+p, h1 {
+    color: #eeecec;
+    text-align: center;
+}
+
+.homePage {
+    background: rgb(253,41,123);
+    background: linear-gradient(90deg, rgba(253,41,123,1) 0%, rgba(255,88,100,1) 15%, rgba(255,101,91,1) 85%);
+    border: none;
+    color: #eeecec;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+img {
+    border: 2px solid #eeecec;
+}
+
+input {
+    width: 250px;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    border-color: rgb(253,41,123);
+    border-color: linear-gradient(90deg, rgba(253,41,123,1) 0%, rgba(255,88,100,1) 15%, rgba(255,101,91,1) 85%);
+    color: #eeecec;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.thata {
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+    position: relative;
+    animation-name: thata;
+    animation-duration: 2s;
+    left: 180px;
+}
+  
+@keyframes thata {
+    0%{opacity: 0; left:100px; top:0px;}
+    25%{opacity: .1;}
+    50%{opacity: .3;}
+    75%{opacity: .5;}
+    100%{opacity: .8; left: 180px; top:0px;}
+}
+
+.jonathan {
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+    position: relative;
+    animation-name: jonathan;
+    animation-duration: 2s;
+    left: -50px;
+}
+
+@keyframes jonathan {
+    0%{opacity: 0; left:100px; top:0px;}
+    25%{opacity: .1;}
+    50%{opacity: .3;}
+    75%{opacity: .5;}
+    100%{opacity: .8; left: -50px; top:0px;}
+}
